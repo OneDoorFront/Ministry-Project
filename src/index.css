@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+}
+/* color  */
+@theme {
+  --Primary: #002624; 
+  --color-border : #EAEAEA;
+}
+*
+{
+  box-sizing: border-box;
+}
