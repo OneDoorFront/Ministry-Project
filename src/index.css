@@ -7,8 +7,8 @@
 }
 /* color  */
 @theme {
-  --Primary: #002624; 
-  --color-border : #EAEAEA;
+  --color-Primary: #002624; 
+  --color-borderColor : #EAEAEA;
 }
 *
 {

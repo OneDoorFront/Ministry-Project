@@ -2,9 +2,10 @@ interface InputType
 {
     placeholder : string;
     type : string;
+    id?: string;
 }
-export default function Input({placeholder , type } : InputType) {
+export default function Input({placeholder , type , id} : InputType) {
   return (
-    <input type={type} placeholder={placeholder} className=" w-full border border-[#EAEAEA]  p-3  placeholder:text-sm placeholder:text-[#737373] "/>
+    <input type={type} id={id} placeholder={placeholder} className=" rounded-lg w-full border border-borderColor  p-3  placeholder:text-sm placeholder:text-[#737373] "/>
   )
 }

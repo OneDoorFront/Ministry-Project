@@ -5,21 +5,23 @@ export const loginData = [
     form: [
       {
         label: 'Phone Number',
-        input: [
+        input: 
           {
+            id : 'PhoneNumbe',
             type: 'text',
             placeholder: '+963 - xxxxxxxxx',
           },
-        ],
+        
       },
       {
         label: 'Password',
-        input: [
+        input: 
           {
+            id : 'Password',
             type: 'password',
             placeholder: 'At Least 8 Character',
           },
-        ],
+        
       },
     ],
     button: 'Log In',
@@ -35,48 +37,53 @@ export const signUpData =
      form: [
       {
         label: 'Full Name',
-        input: [
+        input:
           {
+            id : 'FullName',
             type: 'text',
             placeholder: 'Your Name Goes here',
           },
-        ],
+        
       },
       {
         label: 'ID Number',
-        input: [
+        input: 
           {
+            id : 'IDNumber',
             type: 'text',
             placeholder: 'National ID No.',
           },
-        ],
+        
       },
       {
         label: 'Phone Number',
-        input: [
+        input: 
           {
+            id : 'PhoneNumbe',
             type: 'text',
             placeholder: '+963 - xxxxxxxxx',
           },
-        ],
+        
       },
       {
         label: 'Password',
-        input: [
+        input: 
           {
+            id : 'Password',
             type: 'password',
             placeholder: 'At Least 8 Character',
           },
-        ],
+        
       },
       {
         label: 'Confirm Password',
-        input: [
+        input: 
           {
+            id : 'ConfirmPassword',
             type: 'password',
             placeholder: 'At Least 8 Character',
           },
-        ],
+        
       },
     ],
     button: 'Sign Up',
